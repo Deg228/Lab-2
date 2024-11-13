@@ -134,7 +134,7 @@ namespace WindowsFormsApp2
                 if (serialPort1.IsOpen)
                     serialPort1.Close();
 
-                serialPort1.PortName = "COM";
+                serialPort1.PortName = "COM20";
                 serialPort1.BaudRate = 115200;
             }
         }
